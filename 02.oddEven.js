@@ -5,9 +5,10 @@
 
 const oddEven =(number)=>
 {
+    if(typeof number != 'number') return console.log("Invalid Input");
     if(number%2==0) console.log("Even Number");
     else console.log("Odd Number");
 }
 
 
-oddEven(1);
+oddEven(3);
